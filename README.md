@@ -64,5 +64,5 @@ Application End
 
 1.1: Set up the program and added classes into the program. - 2019 Oct 21
 
-1.2: 
+1.2: Add properties and methods to each class. - 2019 Oct 21
 
