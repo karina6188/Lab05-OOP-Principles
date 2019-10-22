@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lab05_oop_principles.classes
 {
-    public abstract class Fish : Animals
+    public abstract class Fish : Animals, IFeed
     {
         public virtual decimal Length { get; set; }
 
@@ -17,5 +17,12 @@ namespace lab05_oop_principles.classes
         private string _isInZoo = "Fishes are not available in zoo now.";
 
         abstract public string Swim();
+
+        public string FeedFood()
+        {
+            Console.WriteLine("Please feed me fish food.");
+            string result = "Please feed me fish food.";
+            return result;
+        }
     }
 }
