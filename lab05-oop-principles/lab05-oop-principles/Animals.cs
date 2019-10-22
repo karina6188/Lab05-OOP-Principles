@@ -6,7 +6,7 @@ namespace lab05_oop_principles
 {
     abstract class Animals
     {
-        public virtual bool IsAlive { get; set; }
+        public virtual bool IsInZoo { get; set; }
 
         public virtual void Eat()
         {

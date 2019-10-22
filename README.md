@@ -66,3 +66,6 @@ Application End
 
 1.2: Add properties and methods to each class. - 2019 Oct 21
 
+1.3: Fix bugs and override virtual properties. - 2019 Oct 21
+
+1.4: 
