@@ -2,7 +2,7 @@
 
 namespace lab05_oop_principles
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -17,7 +17,6 @@ namespace lab05_oop_principles
             eagle.Fly();
             leopard.Hunt();
             lion.Eat();
-
         }
     }
 }
