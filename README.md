@@ -29,35 +29,13 @@ Open the program using Visual Studio and click "Start" button to run this progra
 
 Unified Modeling Language
 
-This drawing illustrates 
+This drawing illustrates the inheritance layers of each class and their properties and methods. 
 
-![Alt execution capture]()
+![Alt execution capture](/captures/UML.JPG)
 
-Application Start
+Application Execution
 
-![Alt execution capture]()
-
-Using the Application - Start Game
-
-![Alt execution capture]()
-
-Using the Application - View Words
-
-![Alt execution capture]()
-
-Using the Application - Add Words
-
-![Alt execution capture]()
-![Alt execution capture]()
-
-Using the Application - Remove Words
-
-![Alt execution capture]()
-![Alt execution capture]()
-
-Application End
-
-![Alt execution capture]()
+![Alt execution capture](/captures/app_execution.JPG)
 
 
 ## Change Log
