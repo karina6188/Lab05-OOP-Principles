@@ -14,8 +14,11 @@ namespace lab05_oop_principles
             Mammal leopard = new Leopard(68, 8);
 
             salmon.Swim();
+            salmon.FeedFood();
             tiger.Sleep();
+            tiger.FeedFood();
             eagle.Fly();
+            eagle.GiveWater();
             leopard.Hunt();
             lion.Eat();
         }

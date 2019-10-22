@@ -4,14 +4,13 @@ using System.Text;
 
 namespace lab05_oop_principles.classes
 {
-    public abstract class Bird : Animals
+    public abstract class Bird : Animals, IWater
     {
-        public override bool IsInZoo
-        {
-            get => base.IsInZoo = true;
-            set => base.IsInZoo = value;
-        }
+        abstract public string Fly();
 
-        abstract public string Fly(); 
+        public void GiveWater()
+        {
+            Console.WriteLine("Please give me water.");
+        }
     }
 }

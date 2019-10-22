@@ -37,6 +37,36 @@ Application Execution
 
 ![Alt execution capture](/captures/app_execution.JPG)
 
+## Technical Documentation
+Object-Oriented Programming Principles:
+
+Abstraction
+Abstraction is used to carry information (methods, properties,...) to other classes that other classes can then redefine the information to fit their various features to make it more specific to each class.
+
+Example:
+Animal class is an abstract class that carries the IsInZoo properties to its child classes.
+
+Encapsulation
+Encapsulation means to group related things together that contains functions and variables.
+
+Example:
+The constructor method for class Mammal.
+
+Inheritance
+Inheritance allows you to extend the information from a parent class to a child class. Then in the child class, you can make modifications without changing the original file.
+
+Example:
+Class Salmon inherits from class Fish, so class Salmon inherits properties and methods from its parent class and also from the ancestors' classes.
+
+Polymorphism
+Polymorphism allows you to link classes with other classes, and the classes can still functions as their original classes even when they are assigned as other classes.
+
+Example:
+Mammal tiger = new Tiger(520, 9);
+tiger.Sleep();
+
+The method Sleep() is from class Animal which is a parent class of class Mammal which is a parent class of Tiger.
+Polymorphism allows you to make a new instance Tiger as a type Mammel, and allows you to call the Sleep() method from Animal class.
 
 ## Change Log
 
