@@ -76,8 +76,10 @@ Polymorphism allows you to make a new instance Tiger as a type Mammel, and allow
 
 1.3: Fix bugs and override virtual properties. - 2019 Oct 21
 
-1.4: Add unit testing and passes all tests. - 2019 Oct 21
+1.4: Add unit testing to test if all the classes can run functions from their inherited classes. Pass all tests. - 2019 Oct 21
 
 1.5: Add two interfaces to classes. - 2019 Oct 22
 
-1.6: 
+1.6: Add more unit testing to test interfaces. - 2019 Oct 22
+
+1.7: Fix bugs and the program is completed. - 2019 Oct 22

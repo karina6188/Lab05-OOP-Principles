@@ -6,6 +6,6 @@ namespace lab05_oop_principles
 {
     interface IWater
     {
-        void GiveWater();
+        string GiveWater();
     }
 }

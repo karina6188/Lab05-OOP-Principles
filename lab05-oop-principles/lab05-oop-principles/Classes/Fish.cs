@@ -18,9 +18,11 @@ namespace lab05_oop_principles.classes
 
         abstract public string Swim();
 
-        public void FeedFood()
+        public string FeedFood()
         {
             Console.WriteLine("Please feed me fish food.");
+            string result = "Please feed me fish food.";
+            return result;
         }
     }
 }

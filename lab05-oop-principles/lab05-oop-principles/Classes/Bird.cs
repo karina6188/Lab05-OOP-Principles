@@ -8,9 +8,17 @@ namespace lab05_oop_principles.classes
     {
         abstract public string Fly();
 
-        public void GiveWater()
+        public override bool IsInZoo
+        {
+            get => base.IsInZoo = true;
+            set => base.IsInZoo = value;
+        }
+
+        public string GiveWater()
         {
             Console.WriteLine("Please give me water.");
+            string result = "Please give me water.";
+            return result;
         }
     }
 }

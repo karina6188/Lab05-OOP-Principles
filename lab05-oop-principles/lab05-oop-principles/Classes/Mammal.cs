@@ -17,14 +17,18 @@ namespace lab05_oop_principles.classes
 
         abstract public string Hunt();
 
-        public void FeedFood()
+        public string FeedFood()
         {
             Console.WriteLine("Please feed me meat.");
+            string result = "Please feed me meat.";
+            return result;
         }
 
-        public void GiveWater()
+        public string GiveWater()
         {
             Console.WriteLine("Please give me water.");
+            string result = "Please give me water.";
+            return result;
         }
     }
 }

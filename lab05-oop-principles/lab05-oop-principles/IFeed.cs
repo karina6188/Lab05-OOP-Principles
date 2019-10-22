@@ -6,6 +6,6 @@ namespace lab05_oop_principles
 {
     interface IFeed
     {
-        void FeedFood();
+        string FeedFood();
     }
 }
