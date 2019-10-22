@@ -35,30 +35,30 @@ This drawing illustrates the inheritance layers of each class and their properti
 
 Application Execution
 
-![Alt execution capture](/captures/app_execution.JPG)
+![Alt execution capture](/captures/app_execution2.JPG)
 
 ## Technical Documentation
 Object-Oriented Programming Principles:
 
-Abstraction
+### Abstraction
 Abstraction is used to carry information (methods, properties,...) to other classes that other classes can then redefine the information to fit their various features to make it more specific to each class.
 
 Example:
 Animal class is an abstract class that carries the IsInZoo properties to its child classes.
 
-Encapsulation
+### Encapsulation
 Encapsulation means to group related things together that contains functions and variables.
 
 Example:
 The constructor method for class Mammal.
 
-Inheritance
+### Inheritance
 Inheritance allows you to extend the information from a parent class to a child class. Then in the child class, you can make modifications without changing the original file.
 
 Example:
 Class Salmon inherits from class Fish, so class Salmon inherits properties and methods from its parent class and also from the ancestors' classes.
 
-Polymorphism
+### Polymorphism
 Polymorphism allows you to link classes with other classes, and the classes can still functions as their original classes even when they are assigned as other classes.
 
 Example:
