@@ -1,4 +1,5 @@
 ﻿using System;
+using lab05_oop_principles.classes;
 
 namespace lab05_oop_principles
 {

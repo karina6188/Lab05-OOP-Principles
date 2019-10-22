@@ -68,4 +68,4 @@ Application End
 
 1.3: Fix bugs and override virtual properties. - 2019 Oct 21
 
-1.4: 
+1.4: Add unit testing and passes all tests. - 2019 Oct 21

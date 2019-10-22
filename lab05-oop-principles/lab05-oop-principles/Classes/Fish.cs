@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace lab05_oop_principles
+namespace lab05_oop_principles.classes
 {
-    abstract class Fish : Animals
+    public abstract class Fish : Animals
     {
         public virtual decimal Length { get; set; }
 
@@ -16,6 +16,6 @@ namespace lab05_oop_principles
 
         private string _isInZoo = "Fishes are not available in zoo now.";
 
-        abstract public void Swim();
+        abstract public string Swim();
     }
 }

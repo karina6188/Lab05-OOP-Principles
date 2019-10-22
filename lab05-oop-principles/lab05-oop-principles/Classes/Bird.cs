@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace lab05_oop_principles
+namespace lab05_oop_principles.classes
 {
-    abstract class Bird : Animals
+    public abstract class Bird : Animals
     {
         public override bool IsInZoo
         {
@@ -12,6 +12,6 @@ namespace lab05_oop_principles
             set => base.IsInZoo = value;
         }
 
-        abstract public void Fly(); 
+        abstract public string Fly(); 
     }
 }

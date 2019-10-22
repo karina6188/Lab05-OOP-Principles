@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace lab05_oop_principles
+namespace lab05_oop_principles.classes
 {
-    abstract class Mammal: Animals
+    public abstract class Mammal: Animals
     {
         abstract public int Weight { get; set; }
         abstract public int Age { get; set; }
@@ -21,6 +21,6 @@ namespace lab05_oop_principles
             Age = age;
         }
 
-        abstract public void Hunt();
+        abstract public string Hunt();
     }
 }
