@@ -31,7 +31,7 @@ Unified Modeling Language
 
 This drawing illustrates the inheritance layers of each class and their properties and methods. 
 
-![Alt execution capture](/captures/UML.JPG)
+![Alt execution capture](/captures/UML2.JPG)
 
 Application Execution
 
@@ -67,6 +67,17 @@ tiger.Sleep();
 
 The method Sleep() is from class Animal which is a parent class of class Mammal which is a parent class of Tiger.
 Polymorphism allows you to make a new instance Tiger as a type Mammel, and allows you to call the Sleep() method from Animal class.
+
+### Interfaces
+Interfaces allows you to include behaviors from multiple sources in a class. In C#, since a class can only inherit from one class, interfaces can be used to include more functions to a class without "inheriting" from it.
+There are two interfaces in this program, IFeed and IWater. IFeed is implemented to class Mammal and Fish, and IWater is implemented to class Mammal and Bird.
+
+Example:
+salmon.FeedFood();
+tiger.FeedFood();
+eagle.GiveWater();
+
+These codes can be run successfully because their parent class (Fish, Bird, and Mammal) implement interfaces IFeed and IWater.
 
 ## Change Log
 
