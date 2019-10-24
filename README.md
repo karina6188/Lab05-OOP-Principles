@@ -6,7 +6,8 @@ Zoo
 Author: Karina Chen
 
 ## Description
-This is a C# console application that 
+This program demonstrates the 4 Object-Oriented-Programming principles: Abstraction, Encapsulation, Inheritance, and Polymorphism.
+There are three inheritance layers containing abstract and concrete classes. The classes contains abstract, virtual, and concrete properties and methods. This program is a good example to show how 4 OOP principles work.
 
 ## Getting Started
 Clone this repository to your local machine.
