@@ -22,20 +22,33 @@ namespace lab05_oop_principles.classes
         public Salmon(decimal length)
         {
             Length = length;
+            IsInZoo = false;
         }
 
         public override string Sleep()
         {
             base.Sleep();
-            Console.WriteLine($"I am a salmon and I do not sleep, and I am {Length} inches long.");
-            string result = $"I am a salmon and I do not sleep, and I am {Length} inches long.";
+            Console.WriteLine($"I am a salmon and I sleep with my eyes open.");
+            string result = $"I am a salmon and I sleep with my eyes open.";
             return result;
         }
         public override string Swim()
         {
-            Console.WriteLine($"I am a salmon and I swim in the sea, and I am {Length} inches long.");
-            string result = $"I am a salmon and I swim in the sea, and I am {Length} inches long.";
+            Console.WriteLine($"I swim in the sea.");
+            string result = $"I swim in the sea.";
             return result;
+        }
+
+        public new string FeedFood()
+        {
+            Console.WriteLine("Please feed me fish food.");
+            string result = "Please feed me fish food.";
+            return result;
+        }
+
+        public new string MakeSound()
+        {
+            return "Salmon does not make sound.";
         }
     }
 }

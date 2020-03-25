@@ -21,5 +21,19 @@ namespace lab05_oop_principles.classes
             string result = $"I am a lion and I hunt. I weigh {Weight} lbs and I am {Age} years-old.";
             return result;
         }
+
+        public new string FeedFood()
+        {
+            Console.WriteLine("Please feed me meat.");
+            string result = "Please feed me meat.";
+            return result;
+        }
+
+        public new string MakeSound()
+        {
+            Console.WriteLine("Lion roars.");
+            string result = "Lion roars.";
+            return result;
+        }
     }
 }

@@ -24,5 +24,12 @@ namespace lab05_oop_principles.classes
             string result = "Please feed me fish food.";
             return result;
         }
+
+        public string MakeSound()
+        {
+            Console.WriteLine("Fish does not make sound.");
+            string result = "Fish does not make sound.";
+            return result;
+        }
     }
 }
