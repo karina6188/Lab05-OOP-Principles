@@ -37,5 +37,12 @@ namespace lab05_oop_principles.classes
             string result = $"I am a salmon and I swim in the sea, and I am {Length} inches long.";
             return result;
         }
+
+        public new string FeedFood()
+        {
+            Console.WriteLine("Please feed me fish food.");
+            string result = "Please feed me fish food.";
+            return result;
+        }
     }
 }
