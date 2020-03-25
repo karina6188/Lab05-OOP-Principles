@@ -11,7 +11,7 @@ namespace OOPPrinciplesTest
         public void SalmonSwim()
         {
             Fish salmon = new Salmon(15);
-            Assert.Equal("I am a salmon and I swim in the sea, and I am 15 inches long.", salmon.Swim());
+            Assert.Equal("I swim in the sea.", salmon.Swim());
         }
 
         [Fact]
@@ -33,14 +33,14 @@ namespace OOPPrinciplesTest
         public void LeopardSleep()
         {
             Mammal leopard = new Leopard(65, 5);
-            Assert.Equal("I live in a zoo and I SLEEP.", leopard.Sleep());
+            Assert.Equal("Animal sleeps.", leopard.Sleep());
         }
 
         [Fact]
         public void LionEat()
         {
             Mammal lion = new Lion(355, 7);
-            Assert.Equal("I live in a zoo and I EAT.", lion.Eat());
+            Assert.Equal("Animal eats.", lion.Eat());
         }
 
         [Fact]
@@ -54,14 +54,14 @@ namespace OOPPrinciplesTest
         public void TigerEat()
         {
             Mammal tiger = new Lion(355, 7);
-            Assert.Equal("I live in a zoo and I EAT.", tiger.Eat());
+            Assert.Equal("Animal eats.", tiger.Eat());
         }
 
         [Fact]
         public void TigerSleep()
         {
             Mammal tiger = new Lion(355, 7);
-            Assert.Equal("I live in a zoo and I SLEEP.", tiger.Sleep());
+            Assert.Equal("Animal sleeps.", tiger.Sleep());
         }
 
         [Fact]
@@ -90,21 +90,21 @@ namespace OOPPrinciplesTest
         public void MammalTigerFeed()
         {
             Mammal tiger = new Lion(355, 7);
-            Assert.Equal("Please feed me meat.", tiger.FeedFood());
+            Assert.Equal("Some mammals are carnivorous some are herbivorous.", tiger.FeedFood());
         }
 
         [Fact]
         public void MammalLionFeed()
         {
             Mammal lion = new Lion(355, 7);
-            Assert.Equal("Please feed me meat.", lion.FeedFood());
+            Assert.Equal("Some mammals are carnivorous some are herbivorous.", lion.FeedFood());
         }
 
         [Fact]
         public void MammalLeopardFeed()
         {
             Mammal leopard = new Leopard(65, 5);
-            Assert.Equal("Please feed me meat.", leopard.FeedFood());
+            Assert.Equal("Some mammals are carnivorous some are herbivorous.", leopard.FeedFood());
         }
 
         [Fact]
@@ -118,21 +118,42 @@ namespace OOPPrinciplesTest
         public void MammalLeopardWater()
         {
             Mammal leopard = new Leopard(65, 5);
-            Assert.Equal("Please give me water.", leopard.GiveWater());
+            Assert.Equal("Mammals drink water.", leopard.GiveWater());
         }
 
         [Fact]
         public void MammalLionWater()
         {
             Mammal lion = new Lion(355, 7);
-            Assert.Equal("Please give me water.", lion.GiveWater());
+            Assert.Equal("Mammals drink water.", lion.GiveWater());
         }
 
         [Fact]
         public void MammalTigerWater()
         {
             Mammal tiger = new Lion(355, 7);
-            Assert.Equal("Please give me water.", tiger.GiveWater());
+            Assert.Equal("Mammals drink water.", tiger.GiveWater());
+        }
+
+        [Fact]
+        public void TigerSound()
+        {
+            Tiger tiger = new Tiger(355, 7);
+            Assert.Equal("Tiger growls.", tiger.MakeSound());
+        }
+
+        [Fact]
+        public void FishSound()
+        {
+            Fish salmon = new Salmon(18);
+            Assert.Equal("Fish does not make sound.", salmon.MakeSound());
+        }
+
+        [Fact]
+        public void SalmonSound()
+        {
+            Salmon salmon = new Salmon(18);
+            Assert.Equal("Salmon does not make sound.", salmon.MakeSound());
         }
     }
 }
