@@ -28,5 +28,12 @@ namespace lab05_oop_principles.classes
             string result = "Please feed me meat.";
             return result;
         }
+
+        public new string MakeSound()
+        {
+            Console.WriteLine("Lion roars.");
+            string result = "Lion roars.";
+            return result;
+        }
     }
 }

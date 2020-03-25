@@ -4,8 +4,8 @@ using System.Text;
 
 namespace lab05_oop_principles
 {
-    interface IFeed : ISound
+    interface ISound
     {
-        string FeedFood();
+        string MakeSound();
     }
 }

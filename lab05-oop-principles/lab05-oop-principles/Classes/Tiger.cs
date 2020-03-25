@@ -21,5 +21,12 @@ namespace lab05_oop_principles.classes
             string result = $"I am a tiger and I hunt. I weigh {Weight} lbs and I am {Age} years-old.";
             return result;
         }
+
+        public new string MakeSound()
+        {
+            Console.WriteLine("Tiger growls.");
+            string result = "Tiger growls.";
+            return result;
+        }
     }
 }

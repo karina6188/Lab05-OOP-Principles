@@ -10,15 +10,15 @@ namespace lab05_oop_principles.classes
 
         public virtual string Eat()
         {
-            Console.WriteLine("I live in a zoo and I EAT.");
-            string result = "I live in a zoo and I EAT.";
+            Console.WriteLine("Animal eats.");
+            string result = "Animal eats.";
             return result;
         }
 
         public virtual string Sleep()
         {
-            Console.WriteLine("I live in a zoo and I SLEEP.");
-            string result = "I live in a zoo and I SLEEP.";
+            Console.WriteLine("Animal sleeps.");
+            string result = "Animal sleeps.";
             return result;
         }
     }

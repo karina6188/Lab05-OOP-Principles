@@ -13,21 +13,29 @@ namespace lab05_oop_principles.classes
         {
             Weight = weight;
             Age = age;
+            IsInZoo = true;
         }
 
         abstract public string Hunt();
 
         public string FeedFood()
         {
-            Console.WriteLine("Please feed me meat.");
-            string result = "Please feed me meat.";
+            Console.WriteLine("Some mammals are carnivorous some are herbivorous.");
+            string result = "Some mammals are carnivorous some are herbivorous.";
             return result;
         }
 
         public string GiveWater()
         {
-            Console.WriteLine("Please give me water.");
-            string result = "Please give me water.";
+            Console.WriteLine("Mammals drink water.");
+            string result = "Mammals drink water.";
+            return result;
+        }
+
+        public string MakeSound()
+        {
+            Console.WriteLine("Some mammals make sound.");
+            string result = "Some mammals make sound.";
             return result;
         }
     }
